@@ -30,10 +30,12 @@ management.
    cp .env.sample .env
    ```
 
+
 4. Create and setup the database:
     - Create a MySQL database
     - Update DB_ variables in .env with your database credentials
 
 ## Running the Application
-
-Start the development server:
+   ```bash
+     npm run start
+   ```
