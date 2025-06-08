@@ -1,3 +1,4 @@
-uploads
+/src/uploads
 .env
 .idea
+/node_modules
