@@ -19,6 +19,7 @@ app.use('/', express.static(path.join(__dirname, 'uploads')));
 // ✅ API routes
 app.use('/api', routes);
 
+// ✅ Swagger docs
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 module.exports = app;
