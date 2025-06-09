@@ -1,4 +1,4 @@
-// routes/auth.middleware.js
+
 const express = require('express');
 const user = express.Router();
 const UserController = require('../controllers/user.controller');
